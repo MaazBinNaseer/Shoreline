@@ -1,0 +1,6 @@
+name = "shoreline-visualizer"
+compatibility_date = "2025-04-21"
+
+[site]
+bucket = "./"
+entry-point = "./"
