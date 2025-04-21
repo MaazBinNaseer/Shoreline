@@ -9,6 +9,17 @@
             L_DISABLE_3D = false;
         </script>
     
+    <script>
+        const password = "LakeMichigan123"; // Change to your secret
+        const input = prompt("Enter password to access this page:");
+        if (input !== password) {
+          alert("Incorrect password. Access denied.");
+          document.body.innerHTML = "";
+        }
+      </script>
+      
+
+    
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
